@@ -2,13 +2,14 @@
 // it gets @if ed depending on $variant
 
 
-$base_color: if($variant =='light', #ffffff, #404552);
+// $base_color: if($variant =='light', #ffffff, #191C21);
+$base_color: if($variant =='light', #ffffff, #191C21);
 $text_color: if($variant == 'light', #5c616c, #D3DAE3);
-$bg_color: if($variant =='light', #F5F6F7, #383C4A);
+$bg_color: if($variant =='light', #F5F6F7, #191C21);
 $fg_color: if($variant =='light', #5c616c, #D3DAE3);
 
 $selected_fg_color: #ffffff;
-$selected_bg_color: #5294e2;
+$selected_bg_color: #073642;
 $selected_borders_color: darken($selected_bg_color, 20%);
 $borders_color: if($variant =='light', darken($bg_color,9%), darken($bg_color,6%));
 
@@ -48,7 +49,7 @@ $header_border: if($variant == 'light' and $darker=='false', darken($header_bg, 
 $header_fg: if($variant == 'light', saturate(transparentize($fg_color, 0.2), 10%), saturate(transparentize($fg_color, 0.2), 10%));
 $header_fg: if($darker == 'true', saturate(transparentize(#D3DAE3, 0.2), 10%), $header_fg);
 
-$dark_sidebar_bg: if($transparency == 'true', transparentize(#353945, 0.05), #353945);
+$dark_sidebar_bg: if($transparency == 'true', transparentize(#272B33, 0.05), #272B33);
 $dark_sidebar_fg: #BAC3CF;
 $dark_sidebar_border: if($variant == 'light', $dark_sidebar_bg, darken($dark_sidebar_bg, 5%));
 
@@ -74,7 +75,7 @@ $entry_border: if($variant == 'light', #cfd6e6, darken($borders_color, 0%));
 $header_entry_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($base_color, 0.1));
 $header_entry_border: if($darker == 'true' or $variant == 'dark', transparentize(darken($header_bg, 12%), 0.6), transparentize($header_fg, 0.7));
 
-$button_bg: if($variant == 'light', lighten($bg_color, 2%), lighten($base_color, 2%));
+$button_bg: if($variant == 'light', lighten($bg_color, 2%), lighten($bg_color, 10%));
 $button_border: $entry_border;
 
 $header_button_bg: if($darker == 'true' or $variant == 'dark', transparentize(lighten($header_bg, 22%), 0.6), transparentize($button_bg, 0.1));
@@ -93,7 +94,7 @@ $wm_icon_close_bg: if($variant == 'light' and $darker == 'false',#F8F8F9 , #2f34
 $wm_button_hover_bg: if($variant == 'light' and $darker == 'false', #fdfdfd, #454C5C);
 $wm_button_active_bg: $selected_bg_color;
 
-$wm_button_hover_border: if($variant == 'light' and $darker == 'false', #D1D3DA, #262932);
+$wm_button_hover_border: if($variant == 'light' and $darker == 'false', #D1D3DA, #303640);
 
 $wm_icon_bg: if($variant == 'light' and $darker == 'false', #90949E, #90939B);
 $wm_icon_unfocused_bg: if($variant == 'light' and $darker == 'false', #B6B8C0, #666A74);

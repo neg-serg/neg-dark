@@ -43,7 +43,7 @@ $darker_asset_suffix: if($darker=='true', '-dark', $asset_suffix);
 
   // We use the outline properties to signal the focus properties
   outline-color: transparentize($fg_color, 0.7);
-  outline-style: dashed;
+  outline-style: double;
   outline-offset: -3px;
   outline-width: 1px;
   outline-radius: 2px;

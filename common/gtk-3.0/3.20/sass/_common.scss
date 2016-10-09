@@ -24,7 +24,7 @@ $darker_asset_suffix: if($darker=='true', '-dark', $asset_suffix);
 
   // We use the outline properties to signal the focus properties
   outline-color: gtkalpha(currentColor, 0.3);
-  outline-style: dashed;
+  outline-style: double;
   outline-offset: -3px;
   outline-width: 1px;
   -gtk-outline-radius: 2px;
