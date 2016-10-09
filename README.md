@@ -1,21 +1,19 @@
+# Neg-Dark
+
+It is more dark fork of Arc theme. I do not want to get Arc-Theme name for this,
+so I created new repo.
+
+#Examples
+
+Lollypop:
+![Lollypop](https://i.imgur.com/fJk0q2z.png)
+
+Firefox filechooser:
+![Firefox](https://i.imgur.com/E9XcdVs.png)
+
 # Arc Theme
 
 Arc is a flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell which supports GTK 3 and GTK 2 based desktop environments like Gnome, Unity, Budgie, Pantheon, XFCE, Mate, etc.
-
-###Arc is available in three variants 
-
-#####Arc
-
-![A screenshot of the Arc theme](http://i.imgur.com/Ph5ObOa.png)
-
-#####Arc-Darker
-
-![A screenshot of the Arc-Darker theme](http://i.imgur.com/NC6dqyl.png)
-
-#####Arc-Dark
-
-![A screenshot of the Arc-Dark theme](http://i.imgur.com/5AGlCnA.png)
-
 
 ### Requirements
 
