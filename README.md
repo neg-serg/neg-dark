@@ -5,11 +5,11 @@ I did not want to call this Arc-Dark, so I created a new repository
 
 ### Examples
 
-####Lollypop:
+#### Lollypop:
 
 ![Lollypop](https://i.imgur.com/fJk0q2z.png)
 
-####Firefox filechooser:
+#### Firefox filechooser:
 
 ![Firefox](https://i.imgur.com/E9XcdVs.png)
 
